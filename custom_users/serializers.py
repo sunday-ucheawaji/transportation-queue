@@ -1,6 +1,5 @@
 from rest_framework import serializers
 from .models import CustomUser
-from customer.models import Customer
 from customer import signals
 
 class CustomUserSerializer(serializers.Serializer):

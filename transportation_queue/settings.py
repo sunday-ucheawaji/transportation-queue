@@ -45,6 +45,7 @@ INSTALLED_APPS = [
 
     'custom_users', #local
     'customer',
+    'slot'
 ]
 
 MIDDLEWARE = [
